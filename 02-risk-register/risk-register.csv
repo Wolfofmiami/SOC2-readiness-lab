@@ -1,0 +1,16 @@
+ID,Risk,Category,Likelihood,Impact,Score,Rating,Treatment,Owner,Status
+R01,Former employees keep access after they quit,Access,4,4,16,High,Mitigate,CTO,Open
+R02,Phishing email steals an employee login,People,4,4,16,High,Mitigate,CTO,Open
+R03,Accounts not protected by MFA,Access,3,5,15,High,Mitigate,CTO,Open
+R04,Database misconfigured and exposes customer data,Technical,3,5,15,High,Mitigate,CTO,Open
+R05,Code changes pushed live with no review,Change Mgmt,4,3,12,Medium,Mitigate,CTO,Open
+R06,Employees have more access than they need,Access,4,3,12,Medium,Mitigate,CTO,Open
+R07,No security awareness training,People,4,3,12,Medium,Mitigate,Ops Manager,Open
+R08,No one monitors logs so a breach goes unnoticed,Technical,3,4,12,Medium,Mitigate,CTO,Open
+R09,No incident response plan,Process,3,4,12,Medium,Mitigate,CEO,Open
+R10,No backups so data is lost for good,Technical,2,5,10,Medium,Mitigate,CTO,Open
+R11,Field tech phone lost or stolen,Physical,3,3,9,Medium,Mitigate,Ops Manager,Open
+R12,Ransomware hits a company laptop,Technical,2,4,8,Medium,Mitigate,CTO,Open
+R13,A vendor gets breached and leaks our data,Vendor,2,4,8,Medium,Transfer,CEO,Open
+R14,Stripe outage stops payments,Vendor,2,3,6,Low,Transfer,CEO,Open
+R15,Netlify outage takes the app down,Vendor,2,3,6,Low,Accept,CTO,Open
